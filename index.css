@@ -1,0 +1,35 @@
+.container {
+  max-width: 1366px;
+  margin: auto;
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  width: 250px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.salt-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.review {
+  background: #f8f8f8;
+  padding: 10px;
+  margin: 10px 0;
+}
